@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Suscripción a Boletín</title>
+</head>
+<body>
+    <header>
+        <h1>Boletín de Noticias</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Boletín de Noticias</a></li>
+                <li><a href="lenguajes.html">Preferencias</a></li>
+                <li><a href="validacion.html">Validación</a></li>
+                <li><a href="cursos.html">Inscripción a Curso</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Suscríbete a nuestro Boletín</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Datos de Suscripción</legend>
+                
+                <label for="nombre_completo">Nombre completo:</label>
+                <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Ingresa tu nombre completo" required>
+                <br><br>
+                
+                <label for="correo_sub">Correo electrónico:</label>
+                <input type="email" id="correo_sub" name="correo_sub" placeholder="ejemplo@correo.com" required>
+                <br><br>
+                
+                <label>
+                    <input type="checkbox" name="promociones" checked>
+                    Acepto recibir correos promocionales
+                </label>
+                <br><br>
+                
+                <button type="submit">Suscribirse</button>
+                <button type="reset">Resetear Formulario</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025B</p>
+    </footer>
+</body>
+</html>
